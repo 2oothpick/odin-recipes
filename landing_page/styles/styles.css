@@ -4,14 +4,14 @@ body {
     padding: 0px;
     color: #970000;
     font-size: 20px;
-    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Roboto;
     min-height: 100vh;
 }
 
 /* first section */
 header {
     width: 100%;
-    background-color: rgb(24, 24, 40);
+    background-color: #1f2937;
 }
 
 .header-container {
@@ -27,12 +27,12 @@ header {
 
 .header-logo {
     flex: 2;
-    color: white;
 }
 
 .header-logo h2 {
     margin: 20px 0px 0px 0px;
-    font-size: 15px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header-links {
@@ -41,8 +41,8 @@ header {
 
 .header-links div {
     margin: 20px 20px 0px 0px;
-    font-size: 13px;
-    color: rgb(142, 139, 139);
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 
@@ -53,8 +53,9 @@ header {
 }
 
 .flex-container-1 div h1 {
-    color: white;
-    font-size: 35px;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
     margin: 0px;
     max-width: 60%;
 
@@ -63,8 +64,8 @@ header {
 .flex-container-1 div p {
     margin-top: 0px;
     margin-bottom: 10px;
-    color: rgb(199, 197, 197);
-    font-size: 15px;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .img-placeholder {
@@ -81,7 +82,7 @@ header {
 }
 
 button {
-    background-color: rgb(33, 122, 205);
+    background-color:  #3882F6;
     border: 0px;
     color: white;
     border-radius: 5px;
@@ -93,13 +94,15 @@ button {
 .section-2 {
     background-color: white;
     margin-top: 30px;
-    height: 300px
+    height: 370px
 }
 
 .section-2 h2 {
     margin-top: 0px;
     text-align: center;
-    color: black;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
 }
 
 .flex-container-2 {
@@ -121,14 +124,14 @@ button {
 .flex-container-2 .square div {
     width: 140px;
     height: 140px;
-    border: 2px solid rgb(66, 140, 237);
+    border: 2px solid #3882F6;
     border-radius: 10px;
 
 }
 
 .flex-container-2 .square p {
-    max-width: 100px;
-    font-size: 12px;
+    max-width: 170px;
+    font-size: 18px;
     text-align: center;
     color: grey;
 }
@@ -137,7 +140,7 @@ button {
 .section-3 {
     width: 100%;
     padding: 50px 0px;
-    background-color: rgb(244, 222, 226);
+    background-color: #E5E7EB;
 }
 
 .section-3 div {
